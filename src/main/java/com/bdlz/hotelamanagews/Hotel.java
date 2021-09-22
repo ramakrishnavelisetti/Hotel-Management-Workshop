@@ -2,20 +2,19 @@ package com.bdlz.hotelamanagews;
 
 public class Hotel {
     private String hotelName;
-    private int ratesForRegularCustomerWeekdays;
-    private int ratesForRegularCustomerWeekend;
-    private int ratesForRewardCustomerWeekdays;
-    private int ratesForRewardCustomerWeekend;
+    private int rateForRegularCustomerWeekdays;
+    private int rateForRegularCustomerWeekend;
+    private int rateForRewardCustomerWeekdays;
+    private int rateForRewardCustomerWeekend;
 
-    public Hotel(String hotelName, int ratesForRegularCustomerWeekdays, int ratesForRegularCustomerWeekend,
-                        int ratesForRewardCustomerWeekdays, int ratesForRewardCustomerWeekend) {
+    public Hotel(String hotelName, int rateForRegularCustomerWeekdays, int rateForRegularCustomerWeekend,
+                 int rateForRewardCustomerWeekdays, int rateForRewardCustomerWeekend) {
         this.hotelName = hotelName;
-        this.ratesForRegularCustomerWeekdays = ratesForRegularCustomerWeekdays;
-        this.ratesForRegularCustomerWeekend = ratesForRegularCustomerWeekend;
-        this.ratesForRewardCustomerWeekdays = ratesForRewardCustomerWeekdays;
-        this.ratesForRewardCustomerWeekend = ratesForRewardCustomerWeekend;
+        this.rateForRegularCustomerWeekdays = rateForRegularCustomerWeekdays;
+        this.rateForRegularCustomerWeekend = rateForRegularCustomerWeekend;
+        this.rateForRewardCustomerWeekdays = rateForRewardCustomerWeekdays;
+        this.rateForRewardCustomerWeekend = rateForRewardCustomerWeekend;
     }
-
     public Hotel() {
 
     }
@@ -28,46 +27,46 @@ public class Hotel {
         this.hotelName = hotelName;
     }
 
-    public int getRatesForRegularCustomerWeekdays() {
-        return ratesForRegularCustomerWeekdays;
+    public int getRateForRegularCustomerWeekdays() {
+        return rateForRegularCustomerWeekdays;
     }
 
-    public void setRatesForRegularCustomerWeekdays(int ratesForRegularCustomerWeekdays) {
-        this.ratesForRegularCustomerWeekdays = ratesForRegularCustomerWeekdays;
+    public void setRateForRegularCustomerWeekdays(int rateForRegularCustomerWeekdays) {
+        this.rateForRegularCustomerWeekdays = rateForRegularCustomerWeekdays;
     }
 
-    public int getRatesForRegularCustomerWeekend() {
-        return ratesForRegularCustomerWeekend;
+    public int getRateForRegularCustomerWeekend() {
+        return rateForRegularCustomerWeekend;
     }
 
-    public void setRatesForRegularCustomerWeekend(int ratesForRegularCustomerWeekend) {
-        this.ratesForRegularCustomerWeekend = ratesForRegularCustomerWeekend;
+    public void setRateForRegularCustomerWeekend(int rateForRegularCustomerWeekend) {
+        this.rateForRegularCustomerWeekend = rateForRegularCustomerWeekend;
     }
 
-    public int getRatesForRewardCustomerWeekdays() {
-        return ratesForRewardCustomerWeekdays;
+    public int getRateForRewardCustomerWeekdays() {
+        return rateForRewardCustomerWeekdays;
     }
 
-    public void setRatesForRewardCustomerWeekdays(int ratesForRewardCustomerWeekdays) {
-        this.ratesForRewardCustomerWeekdays = ratesForRewardCustomerWeekdays;
+    public void setRateForRewardCustomerWeekdays(int rateForRewardCustomerWeekdays) {
+        this.rateForRewardCustomerWeekdays = rateForRewardCustomerWeekdays;
     }
 
-    public int getRatesForRewardCustomerWeekend() {
-        return ratesForRewardCustomerWeekend;
+    public int getRateForRewardCustomerWeekend() {
+        return rateForRewardCustomerWeekend;
     }
 
-    public void setRatesForRewardCustomerWeekend(int ratesForRewardCustomerWeekend) {
-        this.ratesForRewardCustomerWeekend = ratesForRewardCustomerWeekend;
+    public void setRateForRewardCustomerWeekend(int rateForRewardCustomerWeekend) {
+        this.rateForRewardCustomerWeekend = rateForRewardCustomerWeekend;
     }
 
     @Override
     public String toString() {
         return "Hotel{" +
                 "hotelName='" + hotelName + '\'' +
-                ", ratesForRegularCustomerWeekdays=" + ratesForRegularCustomerWeekdays +
-                ", ratesForRegularCustomerWeekend=" + ratesForRegularCustomerWeekend +
-                ", ratesForRewardCustomerWeekdays=" + ratesForRewardCustomerWeekdays +
-                ", ratesForRewardCustomerWeekend=" + ratesForRewardCustomerWeekend +
+                ", rateForRegularCustomerWeekdays=" + rateForRegularCustomerWeekdays +
+                ", rateForRegularCustomerWeekend=" + rateForRegularCustomerWeekend +
+                ", rateForRewardCustomerWeekdays=" + rateForRewardCustomerWeekdays +
+                ", rateForRewardCustomerWeekend=" + rateForRewardCustomerWeekend +
                 '}';
     }
 }
